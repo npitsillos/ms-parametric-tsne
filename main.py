@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from utils.utils import plot
+from tsne.utils import plot
 from sklearn.pipeline import Pipeline
 from sklearn.datasets import load_digits
 from tsne.parametric_tsne import ParametricTSNE

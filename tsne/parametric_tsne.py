@@ -3,8 +3,8 @@ import numpy as np
 import torch.nn as nn
 
 from tqdm import tqdm
+from tsne.utils import x_to_p
 from torch.optim import Adam
-from utils.utils import x_to_p
 from torch.utils.tensorboard import SummaryWriter
 from sklearn.base import BaseEstimator, TransformerMixin
 

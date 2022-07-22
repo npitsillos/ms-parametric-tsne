@@ -4,7 +4,7 @@ import torch.nn as nn
 
 from tqdm import tqdm
 from torch.optim import Adam
-from utils.utils import x_to_p
+from tsne.utils import x_to_p
 from tsne.parametric_tsne import ParametricTSNE
 from torch.utils.tensorboard import SummaryWriter
 
